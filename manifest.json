@@ -5,8 +5,14 @@
   "description": "Reading should be friendly for your eyes",
   "version": "0.0.1",
 
+  "icons": {
+    "16": "mata-inactive-16.png",
+    "48": "mata-inactive-48.png",
+    "128": "mata-inactive-128.png"
+  },
+
   "browser_action": {
-    "default_icon": { "38": "mata-inactive.png" }
+    "default_icon": { "38": "mata-inactive-38.png" }
   },
 
   "background": {
