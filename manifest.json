@@ -1,0 +1,6 @@
+{
+  "manifest_version": 2,
+  "name": "Mata",
+  "description": "Chrome extension that makes reading easier for your eyes",
+  "version": "0.0.1"
+}
