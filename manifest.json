@@ -1,6 +1,11 @@
 {
   "manifest_version": 2,
+
   "name": "Mata",
-  "description": "Chrome extension that makes reading easier for your eyes",
-  "version": "0.0.1"
+  "description": "Reading should be friendly for your eyes",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_icon": "mata-inactive.png"
+  }
 }
