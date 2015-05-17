@@ -6,10 +6,9 @@ This is Mata, either you could click that 'eye' button or create your own shortc
 ![](http://i.imgur.com/Adw6b37.png)
 
 Here is an example of Medium article, which would be turned into 'night' vision
-![](http://i.imgur.com/6eE7RuH.png)
+![](http://g.recordit.co/qtEgeaAP5k.gif)
 
-Taraaa, you could read the rest of the article peacefully
-![](http://i.imgur.com/3ZSNXBI.png)
 
 ## Installation
+All you need to do is drag the `Mata.crx` to `chrome://extensions/` and you're good to go
 ![](http://g.recordit.co/QB4jOCZi4u.gif)
