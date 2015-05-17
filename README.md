@@ -10,3 +10,6 @@ Here is an example of Medium article, which would be turned into 'night' vision
 
 Taraaa, you could read the rest of the article peacefully
 ![](http://i.imgur.com/3ZSNXBI.png)
+
+## Installation
+![](http://g.recordit.co/QB4jOCZi4u.gif)
