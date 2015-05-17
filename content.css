@@ -1,4 +1,4 @@
-.mata-friendly {
+.mata-friendly, .mata-friendly * {
   background-color: black !important;
   color: #777 !important;
 }

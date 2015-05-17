@@ -3,11 +3,11 @@ var hidden_icon_name_html = "<input type='hidden' value='mata-inactive-38.png' i
 $("body").append(hidden_icon_name_html);
 
 function activate_mata() {
-  $("body, body *").addClass("mata-friendly");
+  $("body").addClass("mata-friendly");
 }
 
 function deactivate_mata() {
-  $("body, body *").removeClass("mata-friendly");
+  $("body").removeClass("mata-friendly");
 }
 
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
