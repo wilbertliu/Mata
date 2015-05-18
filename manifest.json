@@ -3,7 +3,7 @@
 
   "name": "Mata",
   "description": "Reading the web should be friendly for your eyes",
-  "version": "1.0.0",
+  "version": "1.1.0",
 
   "icons": {
     "16": "mata-inactive-16.png",
@@ -25,7 +25,7 @@
         "<all_urls>"
       ],
       "css": ["content.css"],
-      "js": ["jquery-2.1.4.min.js", "content.js"]
+      "js": ["content.js"]
     }
   ]
 }
