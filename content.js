@@ -27,6 +27,10 @@ function toggle_mata() {
   }
 }
 
+function updateStatus() {
+  isActive = icon.value === 'meta-inactive-38.png' ? false : true;
+}
+
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   if (request.message == "clicked_browser_action") {
     toggle_mata();
@@ -34,4 +38,4 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   }
 });
 
-body.addEventListener("DOMSubtreeModified", toggle_mata);
+body.addEventListener("DOMSubtreeModified", updateStatus);
