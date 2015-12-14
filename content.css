@@ -1,4 +1,14 @@
-.mata-friendly, .mata-friendly * {
-  background-color: black !important;
-  color: #777 !important;
+/* Invert the colors entire website and lower the contrast at the same time (therefore 80% and not 100%) */
+.mata-friendly{
+  -webkit-filter: invert(80%) !important;
+  
+  /* If background is not set deliberately to white it cannot be inverted to black */
+  background: #fff !important;
 }
+
+/* Stuff you want to keep with normal colors */
+.mata-friendly img, .mata-friendly video{
+  /* Invert back to original color - still dimmed */
+  -webkit-filter: invert(100%) !important; 
+}
+
