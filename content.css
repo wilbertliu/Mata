@@ -2,3 +2,7 @@
   background-color: black !important;
   color: #777 !important;
 }
+
+.mata-friendly, .mata-friendly img {
+  opacity: 0.7 !important;
+}
